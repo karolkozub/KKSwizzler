@@ -3,11 +3,11 @@ KKSwizzler
 
 Ad hoc swizzling for debugging purposes
 
-I created this class to help analyze class relations in Xcode for a plugin I'm working on. It seems to be pretty useful, so I decided to publish it as a separate repository.
+I created this class to analyze class relations in Xcode for a plugin I'm working on. It seemed to be pretty useful, so I decided to publish it as a separate repository.
 
-It's most useful for debugging and code analysis. It makes it a lot easier and faster to add and then change swizzled methods.
+It's most useful for debugging and code analysis. It makes it a lot easier and faster to manage ad hoc swizzled methods.
 
-To use it you have to add a method following a simple naming pattern. Swizzled methods have to start with swizzle$&lt;classname&gt;$, after which follows the methods name. Both instance and class methods are supported
+To use it you have to add a method following a simple naming pattern. Swizzled methods have to start with swizzle$&lt;classname&gt;$ after which follows the method's name. Both instance and class methods are supported.
 
 Usage examples
 --------------
