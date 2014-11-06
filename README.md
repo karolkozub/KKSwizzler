@@ -7,7 +7,7 @@ I created this class to help analyze class relations in Xcode for a plugin I'm w
 
 It's most useful for debugging and code analysis. It makes it a lot easier and faster to add and then change swizzled methods.
 
-To use it you have to add a method following a simple naming pattern. Swizzled methods have to start with swizzle$<classname>$, after which follows the methods name. Both instance and class methods are supported
+To use it you have to add a method following a simple naming pattern. Swizzled methods have to start with swizzle$&lt;classname&gt;$, after which follows the methods name. Both instance and class methods are supported
 
 Usage examples
 --------------
